@@ -1,3 +1,12 @@
+/**
+ * Serviço que será responsável por execuatar as
+ * operações da calculadora.
+ * 
+ * @author Daniel Fonseca da Silva <developer-web@programmer.com> 
+ * @since 1.0.0
+ * 
+ */
+
 import { Injectable } from '@angular/core';
 
 @Injectable()
@@ -31,7 +40,7 @@ export class CalculadoraService {
   	  default:
   	    resultado = 0;
   	}
-    
+
   	return resultado;
   }
 
